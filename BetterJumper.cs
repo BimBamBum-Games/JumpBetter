@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class BetterJumper : MonoBehaviour
 {
-    public float jumpSpeed;
     private Rigidbody _rb;
-    [SerializeField] private Transform _core;
+    [SerializeField] float jumpSpeed;    
+    [SerializeField] Transform _core;
     [SerializeField] float _fallDownMultiplier = 2.5f;
     [SerializeField] float _riseUpMultiplier = 2f;
     private void Start()
